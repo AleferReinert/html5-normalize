@@ -1,0 +1,114 @@
+/* 
+    Developer: Alefer Reinert
+    E-mail: aleferreinert@hotmail.com.br
+    Twitter: https://twitter.com/AleferReinert
+    GitHub: https://github.com/AleferReinert
+*/
+
+html {
+    font-family: sans-serif;
+}
+
+blockquote, body, button, dd, dl, fieldset, 
+figure, h1, h2, h3, h4, h5, h6, hr, input, 
+keygen, menu, ol, p, pre, select, textarea, ul  {
+    margin:0;
+}
+
+button, dialog, fieldset, input, legend, 
+menu, ol, pre, td, textarea, th, ul {
+    padding:0;
+}
+
+button, dialog, fieldset, iframe, img, 
+input[type="button"], input[type="reset"], input[type="submit"] {
+    border:0;
+}
+
+article, aside, details, figcaption, 
+figure, footer, main, nav, section, summary {
+    display:block;
+}
+
+img {
+    vertical-align:bottom;
+}
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+li {
+    list-style:none;
+}
+
+address {
+    font-style: normal;
+}
+
+hr {
+    border-width:1px 0 0;
+}
+
+a:focus, button:focus, embed:focus, input:focus, 
+select:focus, summary:focus, textarea:focus  {
+    outline:none;
+}
+
+input:-moz-ui-invalid, textarea:-moz-ui-invalid{
+    box-shadow:none;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor:pointer;
+    background:none;
+}
+
+button[disabled], input[disabled] {
+    cursor:default;
+}
+
+table {
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+textarea {
+    resize:none;
+    overflow:auto;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    opacity:1;
+}
+
+::-webkit-input-placeholder {
+    color:#000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:400;
+}
+
+input {
+    text-align:left;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    background:none;
+}
+
+article:after, aside:after, body:after, div:after, form:after, 
+li:after, footer:after, header:after, main:after, nav:after, 
+ol:after, section:after, ul:after {
+    clear:both;
+    content:'.';
+    display:block;
+    height:0;
+    overflow:hidden;
+}
