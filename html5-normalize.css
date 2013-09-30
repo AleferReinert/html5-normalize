@@ -21,7 +21,7 @@ menu, ol, pre, td, textarea, th, ul {
 }
 
 button, dialog, fieldset, iframe, img, 
-input[type="button"], input[type="reset"], input[type="submit"] {
+input, textarea {
     border:0;
 }
 
