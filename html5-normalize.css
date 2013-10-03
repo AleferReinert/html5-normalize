@@ -96,7 +96,7 @@ a, a:hover {
 }
 
 a:active, input {
-    background:none;
+    background-color:transparent;
 }
 
 article:after, aside:after, body:after, div:after, form:after, 
