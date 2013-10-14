@@ -15,6 +15,7 @@ html5-normalize standardizes / remove the CSS used by browsers, and many other f
 - Normalizes opacity placeholder
 - Normalized hr to have 1px
 - Hack to elements that have children with float does not lose its height
+- Normalized buttons height in Firefox
 
 <h3>Browsers tested</h3>
 - Internet Explorer 7+

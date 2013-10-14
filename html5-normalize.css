@@ -1,8 +1,6 @@
 /* 
-    Developer: Alefer Reinert
-    E-mail: aleferreinert@hotmail.com.br
-    Twitter: https://twitter.com/AleferReinert
-    GitHub: https://github.com/AleferReinert
+    HTML5 Normalize
+    https://github.com/AleferReinert/html5-normalize
 */
 
 html {
@@ -62,7 +60,6 @@ input:-moz-ui-invalid, textarea:-moz-ui-invalid{
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
     cursor:pointer;
-    background:none;
 }
 
 button[disabled], input[disabled] {
@@ -81,6 +78,11 @@ textarea {
 
 input::-moz-placeholder, textarea::-moz-placeholder {
     opacity:1;
+}
+
+button::-moz-focus-inner {
+    margin-top:-1px; 
+    margin-bottom: -1px; 
 }
 
 h1, h2, h3, h4, h5, h6 {
